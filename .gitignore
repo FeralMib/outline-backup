@@ -1,0 +1,5 @@
+backup_repo
+*.zip
+*.egg-info
+*.eggs
+.idea
