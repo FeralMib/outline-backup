@@ -13,11 +13,11 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     use_scm_version=True,
-    setup_requires=['setuptools-scm', 'structured_config'],
+    setup_requires=['setuptools-scm'],
+    install_requires=['setuptools-scm', 'requests', 'structured_config'],
     entry_points={
         'console_scripts': [
             'outline-backup = outline_backup.__init__:main',
         ]
     },
-    install_requires=['requests'],
 )

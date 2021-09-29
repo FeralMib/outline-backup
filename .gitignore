@@ -3,3 +3,5 @@ backup_repo
 *.egg-info
 *.eggs
 .idea
+__pycache__
+*.yml
